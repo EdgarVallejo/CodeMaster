@@ -1,0 +1,16 @@
+Create an interactive application that simulates a Java greenfield coding assessment similar to those used by Zillow on the CodeSignal platform. The application should provide a problem description, an interactive coding environment where the user can write Java code, and a mechanism to "submit" the code for evaluation.
+
+Here are the specific requirements:
+
+    Problem Generation: The application should generate (or provide a set of pre-defined) open-ended, real-world problem descriptions related to Zillow's domain (real estate data, search, etc.). These problems should be less algorithmic and more focused on designing and implementing a solution from scratch.
+    Interactive Java Coding Environment: Provide a text editor or code area where users can write and edit Java code. Ideally, this should have basic syntax highlighting and error checking (if feasible).
+    Submission Mechanism: Include a "Submit" button or similar functionality that triggers the evaluation of the user's code.
+    Evaluation Logic: Upon submission, the application should simulate a basic evaluation. This could involve:
+        Checking for compilation errors.
+        Running the user's code against a few predefined test cases (with input and expected output).
+        Providing feedback on whether the code passed the test cases.
+        Ideally, give some basic feedback on the code quality, like "Good use of data structures" or "Consider adding more comments."
+    Time Limit (Optional): For a more realistic simulation, consider adding a timer to the coding environment.
+    Example Problem: Here's an example problem to start with: "Design a simple system to store and retrieve property listings. Each listing should have an address, price, and number of bedrooms. Implement methods to add a new listing and to find all listings within a given price range."
+
+The goal is to create an application that gives users a feel for what a Java greenfield coding assessment on CodeSignal might be like, focusing on problem-solving, code design, and communication of their approach.
